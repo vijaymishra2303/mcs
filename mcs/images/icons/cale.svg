@@ -1,0 +1,13 @@
+<svg id="cale" xmlns="http://www.w3.org/2000/svg" width="15.173" height="15.173" viewBox="0 0 15.173 15.173">
+  <circle id="Ellipse_2237" data-name="Ellipse 2237" cx="0.5" cy="0.5" r="0.5" transform="translate(11 6)" fill="#fc7e58"/>
+  <path id="Path_7680" data-name="Path 7680" d="M12.8,1.185h-.77V.593a.593.593,0,0,0-1.185,0v.593h-2.7V.593a.593.593,0,1,0-1.185,0v.593H4.3V.593a.593.593,0,0,0-1.185,0v.593H2.371A2.373,2.373,0,0,0,0,3.556V12.8a2.373,2.373,0,0,0,2.371,2.371H6.9a.593.593,0,1,0,0-1.185H2.371A1.187,1.187,0,0,1,1.185,12.8V3.556A1.187,1.187,0,0,1,2.371,2.371h.741v.593a.593.593,0,1,0,1.185,0V2.371H6.964v.593a.593.593,0,1,0,1.185,0V2.371h2.7v.593a.593.593,0,0,0,1.185,0V2.371h.77a1.187,1.187,0,0,1,1.185,1.185V6.934a.593.593,0,1,0,1.185,0V3.556A2.373,2.373,0,0,0,12.8,1.185Z" fill="#fc7e58"/>
+  <path id="Path_7681" data-name="Path 7681" d="M273.586,270a3.586,3.586,0,1,0,3.586,3.586A3.59,3.59,0,0,0,273.586,270Zm0,5.986a2.4,2.4,0,1,1,2.4-2.4A2.4,2.4,0,0,1,273.586,275.986Z" transform="translate(-261.999 -261.999)" fill="#fc7e58"/>
+  <path id="Path_7682" data-name="Path 7682" d="M372.452,331.215h-.267v-.622a.593.593,0,1,0-1.185,0v1.215a.593.593,0,0,0,.593.593h.859a.593.593,0,1,0,0-1.185Z" transform="translate(-360.006 -320.221)" fill="#fc7e58"/>
+  <ellipse id="Ellipse_2238" data-name="Ellipse 2238" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(8 6)" fill="#fc7e58"/>
+  <circle id="Ellipse_2239" data-name="Ellipse 2239" cx="0.5" cy="0.5" r="0.5" transform="translate(6 8)" fill="#fc7e58"/>
+  <circle id="Ellipse_2240" data-name="Ellipse 2240" cx="0.5" cy="0.5" r="0.5" transform="translate(3 6)" fill="#fc7e58"/>
+  <circle id="Ellipse_2241" data-name="Ellipse 2241" cx="0.5" cy="0.5" r="0.5" transform="translate(3 8)" fill="#fc7e58"/>
+  <circle id="Ellipse_2242" data-name="Ellipse 2242" cx="0.5" cy="0.5" r="0.5" transform="translate(3 11)" fill="#fc7e58"/>
+  <circle id="Ellipse_2243" data-name="Ellipse 2243" cx="0.5" cy="0.5" r="0.5" transform="translate(6 11)" fill="#fc7e58"/>
+  <circle id="Ellipse_2244" data-name="Ellipse 2244" cx="0.5" cy="0.5" r="0.5" transform="translate(6 6)" fill="#fc7e58"/>
+</svg>

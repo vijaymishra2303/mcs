@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayura Consulting Services</title>
+    <link rel="shortcut icon" href="images/icons/favicon.webp" type="image/webp">
+    <!-- CSS Start -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/msn.css">
+    <link rel="stylesheet" href="css/responsive.css">
+   <style>
+    /* header */
+
+
+
+.mcs_menu .mcs_btn {
+  z-index: 9999;
+}
+/* .header-container {
+  position: fixed;
+  background: #fff;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+} */
+.header-container {
+  background: transparent;
+}
+
+.header-container.shrink:before {
+  transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  opacity: 1;
+}
+.header-container:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: scaleY(.9);
+  -webkit-transform: scaleY(.9);
+  box-shadow: 0 0 3px rgba(0,0,0,.11);
+  transform-origin: top;
+  -webkit-transition: all .6s cubic-bezier(.4,.25,0,1);
+  transition: all .6 cubic-bezier(.4,.25,0,1);
+  opacity: 0;}
+  .header-container.shrink .blk-logo {
+    display: block;
+}.header-container.shrink .blk-logo {
+  display: block!important;
+  position: relative;
+}
+  .header-container .blk-logo {
+    display: none!important;
+}
+
+.header-container .white-logo {
+  display: block!important;
+}
+.header-container.shrink .white-logo {
+  display: none !important;
+}
+
+
+/* header end */
+    .mcs_hero_wrap {
+  position: relative;
+  padding: 0px;
+  height: 100vh;
+}
+
+.mcs_hero02_wrap::before {
+  content: "";
+  position: absolute;
+  background-color:rgb(0 0 0 / 40%);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.mcs_hero_info {
+  position: absolute;
+  top: 35%;
+  padding-top: 30px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+}
+.mcs_hero_info strong{     border-bottom: 2px solid #fc815b;  font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #fc815b;}
+.mcs_hero_info p{    font-size: 16px;
+    color: #fff;}
+.mcs_hero_info h5 {
+  color: rgb(255, 255, 255);
+  line-height: 65px;
+  font-size: 55px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0 0 30px;
+}
+.flex_wrapper {
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  /* height: 410px; */
+}
+.modal-body{padding: 0;position: relative;}
+.pop_left{
+  background: url(../images/case-study-bg.webp) no-repeat;
+  /* width: 553px; */
+  padding: 55px 50px;
+  position: relative;
+  background-size: cover;
+  }
+  .modal-header{
+    padding: 0;
+    border: none;
+    height: 0;
+}
+.inquiry_form{
+    padding: 38px 15px;
+}
+.inquiry_form h4{
+  color: #000;
+  position: relative;
+  font-size: 33px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  }
+ .visiontext_wrapper h2 {
+    color: #fff;
+    position: relative;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 0 0 20px 0px;
+    line-height: 48px;
+    }
+    .visiontext_wrapper h2 span{
+    color: #fc815b;
+}
+    .visiontext_wrapper strong{
+    color: #fff;
+    font-size: 28px;
+}
+.inline-fields{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.inline-fields .form-group {
+  width: 100%;
+}
+.form-group input, .form-group textarea{    width: 100%;
+  border: 1px solid rgb(240, 240, 240);
+  height: 45px;
+  border-radius: 0px;
+  padding: 0px 15px;
+  margin-bottom: 15px;
+  background-color: rgb(240, 240, 240);}
+  .form-group textarea{
+
+    height: 100px;
+}
+.modal-header .btn-close {
+    position: absolute;
+    right: 20px;
+    font-size: 14px;
+    z-index: 9999;
+    top: 20px;
+    background-color: #cecece;
+    float: right;
+    color: white;
+    border-radius: 20px;
+}
+.modal-dialog {
+align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;}
+ 
+    /* Responsive Css */
+    @media (min-width: 992px) {
+      .header-container .mcs_menu>ul>li>a{color: #fff;}
+.header-container.shrink .mcs_menu>ul>li>a {
+  color: #000;
+}
+    }
+    @media (max-width: 576px) {
+        
+        .mcs_hero_info h5 {
+        font-size: 33px;
+
+    }
+    .visiontext_wrapper h2 {
+        font-size: 24px;
+        line-height: 34px;
+        }
+        .visiontext_wrapper h2 span{
+        color: #fc815b;
+    }
+        .visiontext_wrapper strong{
+        font-size: 18px;
+    }
+    .modal.fade .modal-dialog {
+    max-width: 90% !important;
+    margin: 0 auto;
+    }
+    .pop_left {
+        padding: 40px 30px;
+    }
+    .flex_wrapper {
+        grid-template-columns: repeat(1,2fr);
+    }
+    .mcs_wrap_finance .we_buid_list {
+    gap: 20px;
+    padding: 0 10px;
+    }
+}
+  
+</style>
+</head>
+<body>
+   <!-- Header Name Start -->
+   <div class="mcs_header_wrap d-flex flex-column header-container   ">
+    <div class="mcs_header_bottom  ">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-3 col-8">
+                    <div class="logo ">
+                        <a href="index.html">
+                            <img class="white-logo"  src="images/mcs-white-logo.svg" alt="Logo">
+                            <img class="blk-logo" src="images/logo.svg" alt="Logo"> 
+                            </a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-4">
+                    <div class="mcs_menu">
+                        <ul>
+                            <img src="images/icons/icon-close.webp" alt="Menu" class="mcs_menu_icon mcs_menu_shift">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="platforms.html">Platforms</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="case-study.html">Success Stories</a></li>
+                            <li><a href="about.html">About MCS</a></li>
+                        </ul>
+                        <img src="images/icons/icon-menu.webp" alt="Menu" class="mcs_menu_icon">
+                        <a href="contact.html" class="mcs_btn">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Mcs Hero Section -->
+<div class="mcs_main_wrap mcs_hero_wrap  mcs_hero02_wrap" style="background-image: url('images/hero02.jpg');">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-12">
+                <div class="mcs_hero_info" >
+                    <strong>eCommerce MLM Software</strong>
+                    <h5>Sell More & Expand Your Market <br>
+                        using <br>
+                        Global MLM Software</h5>
+                        <p>Boost Your MLM Business Success: Get Started Today with a Free Demo of
+                            our Revolutionary MLM Software with eCommerce!</p>
+                        <a data-bs-toggle="modal"  data-bs-target="#exampleModal" style="width: fit-content; margin: 0 auto;" href="javascript:;" class="mcs_btn     width: fit-content;">Consult our experts<img src="images/icons/icon-btn-arrow.webp" alt="Icon"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  
+  <!-- Modal Popup-->
+  <div class="modal fade" id="exampleModal" tabindex="-1"  aria-hidden="true">
+    <div class="modal-dialog" style="max-width: 70%;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="flex_wrapper">
+                <div class="pop_left">
+                    <div class="visiontext_wrapper">
+                        <h2> You have a <span>vision.</span> We have a way to get you there.</h2>
+                       <strong>Global Leader in new age digital<br> product development </strong>
+                    </div>
+                    
+                </div>
+           <div class="pop_right">
+            <form method="post"  class="inquiry_form">
+                <h4>Speak to our experts</h4>
+
+                <div class="inline-fields">
+                  <div class="form-group">
+        
+                    <input type="text" class="form-control" placeholder="Full Name" name="name" required="" value="">
+                  </div>
+                  <div class="form-group">
+        
+                    <input type="email" class="form-control" placeholder="Email" name="email" required="" value="">
+                  </div>
+                </div>
+        
+                <div class="form-group">
+                  <input style="width: 100%;" type="email" placeholder="Phone No." name="email" required="" value="">
+        
+                </div>
+        
+                <div class="form-group">
+        
+                  <textarea class="form-control" placeholder="More information" name="info" required=""></textarea>
+                </div>
+        
+                <button type="button" class="mcs_btn">Submit <img src="images/icons/icon-btn-arrow.webp" alt="Icon"></button>
+              </form>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer Start -->
+    <div class="mcs_footer_wrap" style="background-image: url('images/footer-bg.webp');">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-12">
+                    <div class="mcs_footer_box">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="policy.html">Pnvacy Pobcy</a></li>
+                            <li><a href="term.html">SLA & Terms of User</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="mcs_footer_box">
+                        <h4>Solutions</h4>
+                        <ul>
+                            <li><a href="javascript:;">Binary MI-M Software</a></li>
+                            <li><a href="javascript:;">UndevåNLM Software</a></li>
+                            <li><a href="javascript:;">Matnx MLM Software</a></li>
+                            <li><a href="javascript:;">MLM SoftwUe•</a></li>
+                            <li><a href="javascript:;">Au *ikJtims</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="mcs_footer_box">
+                        <h4>Quick links</h4>
+                        <ul>
+                            <li><a href="javascript:;">Press Release</a></li>
+                            <li><a href="javascript:;">MLM Software Derno</a></li>
+                            <li><a href="javascript:;">2W+ Ready MEM Feature'</a></li>
+                            <li><a href="javascript:;">MEM Calculabr</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12">
+                    <div class="mcs_footer_box">
+                        <h4>Get in touch</h4>
+                        <p><img src="images/icons/icon-map.webp" alt="Icon"> <span>1450 Brickell Bay Drive Suite 1515, Miami Floria - 33131USA</span></p>
+                        <p><img src="images/icons/icon-mail.webp" alt="Icon"> <a href="mailto:business@mayuraconsultancy.com">business@mayuraconsultancy.com</a></p>
+                        <p><img src="images/icons/icon-call.webp" alt="Icon"> <a href="tel:+17658965271">+1-765-896-5271</a></p>
+                        <ul class="mcs_ftr_social">
+                            <li><a href="javascript:;"><img src="images/icons/icon-fb.webp" alt="Icon"></a></li>
+                            <li><a href="javascript:;"><img src="images/icons/icon-linkedin.webp" alt="Icon"></a></li>
+                            <li><a href="javascript:;"><img src="images/icons/icon-twitter.webp" alt="Icon"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mcs_copyrigth_text">
+                        <p>Copyright <a href="index.html">@mayuraconsultancy</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Start -->
+    <script src="js/jquery-3.6.3.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/owl.carousel.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="js/timer-script.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/custom.js "></script>
+    <!-- Header Js -->
+    <script>
+        $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll > 1) {
+        $('.header-container').addClass('shrink');
+    } else {
+        $('.header-container').removeClass('shrink');
+    }
+})
+        </script>
+</body>
+</html>
+
+
+
+

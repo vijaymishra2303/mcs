@@ -1,0 +1,498 @@
+/*---- Responsive CSS Start ----*/
+@media (max-width: 1440px) {
+    .date_man .name_own:nth-child(2){/* display: block; */}
+    .mcs_menu>ul>li{
+    margin: 0 20px;
+    }
+    .mcs_header_wrap.fixed .mcs_menu>ul>li{
+    margin: 0 16px;
+    }
+    }
+    @media (max-width: 1366px) {}
+    @media (max-width: 1024px) {
+    .date_man .name_own:nth-child(2){display: block;}
+    .spePadding {
+    padding-top: 100px;
+    }
+    .mcs_header_wrap.fixed .mcs_logo img {
+    height: auto;
+    }
+    .mcs_menu>ul>li {
+    margin: 0 10px;
+    }
+    .mcs_header_wrap.fixed .mcs_menu>ul>li {
+    margin: 0 10px;
+    }
+    .mcs_menu>ul>li>a{
+    font-size: 15px;
+    }
+    .mcs_menu .mcs_btn {
+    margin-left: 20px;
+    }
+    .mcs_content_text .mcs_btn {
+    margin-top: 10px;
+    }
+    .mcs_btn{
+    padding: 0px 15px;
+    min-width: 120px;
+    height: 45px;
+    }
+    .mcs_heading_wrap {
+    margin-bottom: 20px;
+    }    
+    .mcs_main_wrap {
+    padding: 50px 0;
+    overflow: hidden;
+    }
+    .mcs_pagetitle_wrap {
+    padding: 180px 0 80px 0;
+    }
+    .mcs_footer_wrap{
+    padding: 50px 0 0 0;
+    }
+    .mcs_banner_wrap {
+    padding: 200px 0 100px 0;
+    }
+    .mcs_casestudy_text{
+    padding-right: 10px;
+    }
+    .mcs_casestudy_boxzigzag .mcs_casestudy_text{
+    padding-left: 20px;
+    padding-right: 0px;
+    }
+    .mcs_partner_text {
+    padding: 0 0px 0 0;
+    }
+    .mcs_partnerslider_wrap {
+    padding: 30px;
+    }
+    }
+    @media (min-width: 992px) {
+    .sales_accordion .accordion{
+    width: 100%;
+    }
+    .mainGrid {
+    display: grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+    gap: 20px;
+    }
+    .mainGrid .mcs_blog_text {
+    margin: 00px 0 0 20px;
+    }
+    .mainGrid .mcs_casestudy_categories {
+    margin: 15px 0 0 0;
+    }
+    }
+    @media (max-width: 991px) {
+    .webdesign_acco {
+    width: 100%;
+    }
+    .order-2{
+    order: unset !important;
+    }
+    .date_man{
+    margin-bottom: 15px;
+    }
+    .mcs_blog_text_line p{display: none;}
+    .blogArea{width: 100%;}
+    .mobile_banner{
+    padding: 29vh 0 20vh;
+    }
+    .mobile_banner img{}
+    .mcs_Mockup_slider{grid-template-columns: repeat(1, 2fr);display: block;}
+    .mcs_development_img{margin: 35px 0 0 0;}
+    .grid_filter{
+    grid-template-columns: repeat(4, 2fr);
+    }
+    .spePadding {
+    padding-top: 100px !important;
+    }
+    .mainGrid  .mcs_blog_text {
+    display: flex;
+    }
+    .mcs_header_bottom {
+    padding: 20px 0;
+    }
+    .mcs_menu{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    }
+    .mcs_menu .mcs_btn {
+    margin-left: 0;
+    margin-right: 15px;
+    }
+    .mcs_menu_icon {
+    display: flex;
+    z-index: 0;
+    }
+    .mcs_menu>ul{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    flex-direction: column;
+    padding-top: 60px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    }
+    .mcs_menu>ul.clicked{
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    }
+    .mcs_menu>ul>li>a, .mcs_menu>ul>li>a:hover {
+    margin: 6px 0;
+    width: 100%;
+    padding: 5px;
+    border-bottom: 0px;
+    color: #01081d;
+    }
+    .mcs_menu>ul>li>a::after{
+    display: none;
+    }
+    .mcs_menu>ul>li:first-child {
+    margin-left: 15px;
+    }
+    .mcs_menu>ul>li ul {
+    position: initial;
+    background-color: transparent;
+    box-shadow: none;
+    width: 100%;
+    border-top: 0px;
+    }
+    .mcs_menu>ul.clicked>li ul {
+    opacity: 1;
+    visibility: visible;
+    }
+    .mcs_menu>ul>li ul li a {
+    text-transform: capitalize;
+    margin: 3px 0;
+    padding: 3px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    }
+    .mcs_menu>ul>li ul li a:hover, .mcs_menu>ul>li ul li.active a{
+    color: #FC815B;
+    background-color: transparent;
+    }
+    .mcs_btn{
+    font-size: 13px;
+    padding: 0px 15px;
+    min-width: 110px;
+    height: 40px;
+    }
+    .mcs_casestudy_box {
+    flex-direction: column;
+    }
+    .mcs_contactinfo ul {
+    flex-direction: column;
+    row-gap: 40px;
+    }
+    .mcs_casestudy_boxzigzag .mcs_casestudy_text {
+    padding-left: 0;
+    padding-right: 0px;
+    }
+    .mcs_casestudy_text {
+    margin-bottom: 20px;
+    }
+    .mcs_pagetitle_wrap {
+    padding: 100px 0 60px 0;
+    }
+    }
+    @media (max-width: 768px) {}
+    @media (max-width: 767px) {
+    }
+    @media (max-width: 576px) {
+    
+
+   
+    .mcs_custom_wrap .mcs_contact_form  {
+    margin-top: 30px;
+    } 
+    .mcs_custom_wrap img {
+    }
+    .main_trusted_wrap .mcs_comapins_control {
+    width: 100%;
+    }
+    .mcs_blogdetails {
+    width: 100%;
+    }
+    body{
+    line-height: 1.6;;
+    font-size: 14px;
+    }
+    .mcs_compaines_wrap {
+    border: none;
+    padding: 0 10px;
+    }
+    .mcs_compaines_back {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 12px;
+    text-align: center;
+    }
+    .incraete_icon span{
+    }
+    .scroll_background{position: relative;height: 20px;}
+    .section__img__inner{
+    filter: unset;
+    opacity: 1;
+    transition: none;
+    height: 57vh;
+    }
+    .section__img__inner{position: relative;width: 100%;}
+    .scroll_background{}
+    .scroll_section{
+    margin: 0;
+    }
+    .section{grid-template-columns: repeat(1,2fr);}
+    .mcs_sale_comm{
+    padding: 9em 0 0 0 !important;
+    }
+    .mcs_commission h1{
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .sales_comm_grid{
+    grid-template-columns: repeat(1, 2fr);
+    }
+    .date_man{display: block;}
+    .mcs_blog_title{
+    padding: 100px 0 30px 0 !important;
+    }
+    .date_man .name_own:nth-child(2){
+    display: block;
+    }
+    .mcs_logo img, .mcs_header_wrap.fixed .mcs_logo img {
+    height: 32px;
+    }
+    .mcs_btn{
+    font-size: 12px;
+    padding: 0px 5px;
+    min-width: 80px;
+    height: 32px;
+    }
+    .mcs_heading_wrap h2, .mcs_heading_center_wrap h2, .mcs_heading_right_wrap h2 {
+    font-size: 22px;
+    line-height: 26px;
+    }
+    .mcs_heading_wrap, .mcs_heading_center_wrap, .mcs_heading_right_wrap {
+    margin-bottom: 20px;
+    }
+    .mcs_content_text h1 {
+    line-height: 49px;
+    font-size: 35px;
+    }
+    .mcs_banner_wrap {
+    padding: 100px 0 50px 0px;
+    overflow: hidden;
+    }
+    .mcs_contact_form {
+    padding: 15px;
+    }
+    .mcs_contactinfo ul li p {
+    font-size: 14px;
+    }
+    .mcs_contactinfo ul li img {
+    width: 18px;
+    }
+    .mcs_contactinfo ul li span {
+    margin-top: 5px;
+    }
+    .mcs_contactinfo ul {
+    row-gap: 20px;
+    }
+    .mcs_contactinfo {
+    padding: 30px 15px;
+    }
+    .mcs_copyrigth_text P {
+    font-size: 12px;
+    }
+    .mcs_workwith_box p {
+    font-size: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    }
+    .mcs_services_box p {
+    font-size: 16px;
+    margin-top: 15px;
+    }
+    .mcs_services_box {
+    padding: 20px 5px;
+    }
+    .mcs_casestudy_text h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: normal;
+    }
+    .mcs_casestudy_categories {
+    padding: 0 10px;
+    height: 24px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    }
+    .mcs_pagetitle_info h1 {
+    font-size: 32px;
+    }
+    .mcs_pagetitle_info p {
+    font-size: 14px;
+    }
+    .mcs_casestudy_wrap .nav-pills {
+    margin-bottom: 30px;
+    }
+    /* .mcs_services_wrap .row>*, */
+    .mcs_workwith_wrap .row>*,  .mcs_partner_wrap .row>*{
+    /* width: 50%; */
+    }
+    .mcs_workwith_wrap .col-12, .mcs_services_wrap .col-12, .mcs_partner_wrap .col-12{
+    width: 100%;
+    }
+    .mcs_workwith_box {
+    padding: 20px 10px;
+    }
+    .mcs_workwith_box img {
+    width: 60px;
+    height: 60px;
+    }
+    .mcs_services_box span {
+    width: 70px;
+    height: 70px;
+    }
+    .mcs_services_box img {
+    width: 32px;
+    }
+    .mcs_main_wrap {
+    padding: 30px 0;
+    }
+    .mcs_pagetitle_wrap {
+    padding: 80px 0 40px 0;
+    }
+    .mcs_services_wrap {
+    padding-bottom: 0;
+    }
+    .mcs_banner_wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    }
+    .mcs_footer_wrap {
+    padding: 50px 0 0 0;
+    }
+    .mcs_partnerslider_wrap {
+    padding: 15px;
+    margin-bottom: 50px;
+    }
+    .mcs_partnerslider .owl-nav.disabled+.owl-dots {
+    margin-top: 10px;
+    }
+    .mcs_partner_name h4 {
+    font-size: 15px;
+    }
+    .mcs_timercounter_box h2 {
+    font-size: 36px;
+    }
+    .mcs_timercounter_box p {
+    font-size: 13px;
+    }
+    .mcs_timercounter_box {
+    padding: 25px;
+    margin-bottom: 10px;
+    }
+    .mcs_timercounter_box h2 {
+    font-size: 26px;
+    }
+    .mcs_timercounter_box h2::after {
+    right: -15px;
+    }
+    .mcs_globaladdress_wrap {
+    padding-top: 40px;
+    }
+    .mcs_footer_box {
+    margin-bottom: 20px;
+    }
+    .mcs_footer_box h4 {
+    margin-bottom: 5px;
+    font-size: 20px;
+    }
+    .mcs_footer_box p img {
+    width: 16px;
+    }
+    .mcs_globaladdress_box img {
+    min-width: auto;
+    width: 14px;
+    }
+    .mcs_globaladdress_box p {
+    column-gap: 10px;
+    }
+    .mcs_globaladdress_box {
+    padding: 15px;
+    margin-bottom: 15px;
+    }
+    .mcs_globaladdress_box h4 {
+    column-gap: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    }
+    .mcs_globaladdress_box h4 img{
+    width: 22px;
+    }
+    .mcs_contact_fields {
+    flex-direction: column;
+    }
+    .mcs_contact_form .mcs_contact_field {
+    height: 35px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    }
+    .mcs_contact_form textarea.mcs_contact_field {
+    padding: 10px;
+    }
+    .mcs_contact_form p {
+    margin: 15px 0;
+    }
+    .mcs_casestudy_tags {
+    flex-wrap: wrap;
+    font-size: 11px;
+    column-gap: 5px;
+    row-gap: 5px;
+    }
+    .mcs_casestudy_tags img {
+    width: 13px;
+    }
+    .mcs_pagetitle_info ul li {
+    padding: 5px;
+    }
+    .filters ul {
+    margin: 0px 0 30px 0;
+    column-gap: 8px;
+    row-gap: 8px;
+    }
+    .filters ul li {
+    padding: 6px;
+    min-width: 50px;
+    font-size: 11px;
+    }
+    .grid_filter {
+    grid-template-columns: repeat(2, 2fr);
+    }
+    .mcs_custom_wrap .row {
+    top: -60px;
+    }
+    .services_5 {padding: 30px 0 9em 0 !important;}
+    .mobile_banner {
+    padding: 149px 0 51px 0 !important;
+    }
+    .mcs_content_text p {
+    margin-top: 10px;
+    }
+    .mcs_custom_wrap {
+    background: none;
+    padding: 22vh 0px 0vh;}
+    }
